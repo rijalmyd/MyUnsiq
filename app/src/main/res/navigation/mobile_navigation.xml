@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.rijaldev.myunsiq.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_pesan"
+        android:name="com.rijaldev.myunsiq.PesanFragment"
+        android:label="@string/title_message"
+        tools:layout="@layout/fragment_pesan" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.rijaldev.myunsiq.KuliahFragment"
+        android:label="Kuliah"
+        tools:layout="@layout/fragment_kuliah" />
+
+    <fragment
+        android:id="@+id/navigation_bayar"
+        android:name="com.rijaldev.myunsiq.BayarFragment"
+        android:label="@string/title_bayar"
+        tools:layout="@layout/fragment_bayar" />
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.rijaldev.myunsiq.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

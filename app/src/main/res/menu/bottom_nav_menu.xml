@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_pesan"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="@string/title_message" />
+
+    <item
+        android:id="@+id/navigation_kuliah"
+        android:icon="@drawable/ic_baseline_kuliah_24"
+        android:title="@string/title_kuliah" />
+
+    <item
+        android:id="@+id/navigation_bayar"
+        android:icon="@drawable/ic_baseline_bayar_24"
+        android:title="@string/title_bayar" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/ic_baseline_profil_24"
+        android:title="@string/title_profil" />
+
+
+</menu>

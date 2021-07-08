@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Unsiq</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_message">Pesan</string>
+    <string name="title_kuliah">Kuliah</string>
+    <string name="title_bayar">Bayar</string>
+    <string name="title_profil">Profil</string>
+    <string name="maaf">Maaf, tampilan ini belum dibuat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
