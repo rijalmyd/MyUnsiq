@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".SignUpActivity">
 
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_image_one_signup"/>
+        android:src="@drawable/background_image_one_signin"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
-        android:text="Selamat Datang!"
+        android:text="Buat Akun"
         android:textColor="@android:color/white"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -39,11 +39,52 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:backgroundTint="@android:color/transparent"
+            android:hint="Nama"
+            android:importantForAutofill="no"
+            android:padding="15dp"
+            android:inputType="text"
+            android:textColor="#292929"
+            android:textColorHint="#999999"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:background="#B1B1B1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@android:color/transparent"
             android:hint="Email"
             android:padding="15dp"
             android:inputType="textEmailAddress"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"/>
+            android:textColor="#292929"
+            android:textColorHint="#999999"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:background="#B1B1B1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="Nomor Telepon"
+            android:padding="15dp"
+            android:inputType="number"
+            android:textColor="#292929"
+            android:textColorHint="#999999"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -62,8 +103,8 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="15dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"/>
+            android:textColor="#292929"
+            android:textColorHint="#999999"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -76,11 +117,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp">
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/tmbl_login"
+                android:id="@+id/tmbl_signup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -102,8 +143,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="30dp"
-                android:hint="Masuk"
-                android:textColor="#FFFFFF"
+                android:hint="Daftar"
+                android:textColor="#191919"
                 android:textSize="20sp"
                 android:padding="15dp"
                 android:textStyle="bold"/>
@@ -115,27 +156,17 @@
             android:layout_marginTop="20dp">
 
             <TextView
-                android:id="@+id/tmbl_keDaftar"
+                android:id="@+id/tmbl_keLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="30dp"
                 android:padding="15dp"
-                android:text="Daftar"
+                android:text="Masuk"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerInParent="true"
-                android:layout_marginEnd="30dp"
-                android:padding="15dp"
-                android:text="Lupa Password?"
-                android:textSize="16sp"
-                android:textStyle="bold"/>
 
         </RelativeLayout>
     </LinearLayout>

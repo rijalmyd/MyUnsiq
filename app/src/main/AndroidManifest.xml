@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyUnsiq">
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".InfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.MyUnsiq.Fullscreen"></activity>
+        <activity android:name=".PesanActivity1" />
+        <activity
+            android:name=".PesanActivity0"
+            android:label="@string/title_activity_pesan"
+            android:theme="@style/Theme.MyUnsiq.NoActionBar" />
+        <activity android:name=".AktivasiActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

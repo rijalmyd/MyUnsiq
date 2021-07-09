@@ -17,6 +17,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         val tmblLogin : FloatingActionButton = findViewById(R.id.tmbl_login)
         //set sebagai listener tombol
         tmblLogin.setOnClickListener(this)
+
+        val tmblKeDaftar : TextView = findViewById(R.id.tmbl_keDaftar)
+        tmblKeDaftar.setOnClickListener(this)
     }
 
     //fungsi ketika tombol diklik
@@ -27,6 +30,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 val pindahKeMainActivity = Intent(this@LoginActivity, MainActivity::class.java)
                 //memulai activity
                 startActivity(pindahKeMainActivity)
+            }
+            R.id.tmbl_keDaftar -> {
+                val pindahKeSignUpActivity = Intent(this@LoginActivity, SignUpActivity::class.java)
+                startActivity(pindahKeSignUpActivity)
             }
         }
     }

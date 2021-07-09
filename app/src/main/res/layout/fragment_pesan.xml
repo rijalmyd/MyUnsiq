@@ -26,6 +26,7 @@
                 android:textStyle="bold"/>
         </RelativeLayout>
         <RelativeLayout
+            android:id="@+id/msg0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -94,6 +95,7 @@
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout
+            android:id="@+id/msg1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp">
